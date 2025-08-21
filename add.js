@@ -7,6 +7,13 @@ document.addEventListener("DOMContentLoaded", () => {
     var popSound = new Audio("sounds/pop-sound.mp3");
     const pageBackground = document.getElementById("background-two");
 
+    pageBackground.style.backgroundImage = "url('imgs/background-img-two.png')";
+    pageBackground.style.backgroundSize = "cover";
+    pageBackground.style.backgroundRepeat = "no-repeat";
+    pageBackground.style.backgroundAttachment = "fixed";
+    pageBackground.style.backgroundPosition = "center";
+    pageBackground.style.padding = "2rem 2rem 2rem 2rem";
+
     darkMode.onclick = function() {
         pageBackground.style.backgroundImage = "url('imgs/background-img-alt.png')";
         pageBackground.style.transition = "all 0.3s ease";
@@ -15,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     lightMode.onclick = function() {
-        pageBackground.style.backgroundImage = "url('imgs/background-img.png')";
+        pageBackground.style.backgroundImage = "url('imgs/background-img-two.png')";
         pageBackground.style.transition = "all 0.3s ease";
         popSound.play();
         popSound.currentTime = 0;

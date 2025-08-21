@@ -12,14 +12,14 @@ body {
 
 /* Header Section */
 
-#background-one {
+/* #background-one {
     background-image: url(/imgs/background-img.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     padding: 2rem 2rem 2rem 2rem;
-}
+} */
 
 .header-section {
     display: flex;
