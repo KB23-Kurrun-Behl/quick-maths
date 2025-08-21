@@ -10,11 +10,11 @@ https://kb23-kurrun-behl.github.io/quick-maths/
 
 🎯 Features
 
-▪️A bright and vibrant user interface with a simple and easy-to-use navigation.
+▪️A bright and vibrant user interface with a simple and easy-to-use navigation
 <br>
 ▪️The application is browser-based meaning no installation is required
 <br>
-▪️The application is designed to boost mathematical skills through interactive rapid-fire questions.
+▪️The application is designed to boost mathematical skills through interactive rapid-fire questions
 
 ⚒️ Tech Stack
 
