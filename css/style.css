@@ -1,0 +1,169 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+/* Header Section */
+
+#background-one {
+    background-image: url(/imgs/background-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+.header-section {
+    display: flex;
+    gap: 3.5rem;
+    height: 11rem;
+    justify-content: left;
+}
+
+.link {
+    cursor: pointer;
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    list-style: none;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.fa-solid {
+    color: #FFF;
+    font-size: 2.5rem;
+    filter: drop-shadow(2px 2px #254A79);
+    position: fixed;
+    -webkit-filter: drop-shadow(2px 2px #254A79);
+}
+
+/* Primary Section */
+
+.primary-section {
+    padding: 2rem 2rem 23rem 2rem;
+}
+
+.logo-section {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 2rem;
+}
+
+.logo {
+    height: 6rem;
+}
+
+#primary-title {
+    color: #FFF;
+    font-family: "Sour Gummy", sans-serif;
+    padding: 1.5rem 0;
+    font-size: 4rem;
+    text-align: center;
+    text-shadow: 3px 3px #254A79;
+    font-weight: 600;
+}
+
+.emblem {
+    height: 10rem;
+}
+
+.emblem-section-list {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+}
+
+/* Add Page */
+
+#background-two {
+    background-image: url(/imgs/background-img-two.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+.score-section {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 1rem;
+}
+
+#score-box {
+    height: 2rem;
+}
+
+.heading-section {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+/* #what-is-box {
+    height: 4rem;
+} */
+
+.question-section {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem 2rem;
+}
+
+#heading-box {
+    color: #FFF;
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    text-shadow: 3px 3px #254A79;
+    font-weight: 600;
+}
+
+#operation-box, #random-num-one, #random-num-two, #equal-box {
+    color: #FFF;
+    font-family: "Sour Gummy", sans-serif;
+    padding: 1.5rem 0;
+    font-size: 6rem;
+    text-align: center;
+    text-shadow: 3px 3px #254A79;
+    font-weight: 600;
+}
+
+#answer-box {
+    background-color: #FFF;
+    border: 3px solid #254A79;
+    color: #254A79;
+    display: inline-block;
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 6rem;
+    filter: drop-shadow(2px 2px #254A79);
+    height: 8rem;
+    overflow: hidden;
+    resize: none;
+    text-align: center;
+    width: 15rem;
+    -webkit-filter: drop-shadow(6px 6px #254A79);
+}
+
+.button-section-list {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 4.5rem;
+    list-style: none;
+}
