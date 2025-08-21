@@ -14,7 +14,7 @@ https://kb23-kurrun-behl.github.io/quick-maths/
 <br>
 ▪️The application is browser-based meaning no installation is required
 <br>
-▪️The application is designed to boost mathematical skills through interactive, rapid-fire questions based on their chosen topic.
+▪️The application is designed to boost mathematical skills through interactive rapid-fire questions.
 
 ⚒️ Tech Stack
 
